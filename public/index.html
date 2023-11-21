@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Maps</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="Map.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Maps</h1>
+    </header>
+    <main>
+      <div id="printoutPanel"></div>
+      <div class="options">
+        <input class="search_input" placeholder="Search" />
+        <button class="search_btn">Search</button>
+      </div>
+      <div id="map"></div>
+    </main>
+    <footer>
+      <p class="copyright">2023 - Haja code</p>
+    </footer>
+    <script src="maps.js"></script>
+    <script
+      src="http://www.bing.com/api/maps/mapcontrol?callback=getMap"
+      async
+    ></script>
+    <script src="./sampleCode.autosuggestui.js"></script>
+  </body>
+</html>
